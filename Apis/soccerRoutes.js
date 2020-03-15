@@ -65,12 +65,13 @@ router.get("/", (req, res) => {
         { name: 'Americas', leagues: americas }
     ]
 
-
-    regionsAndLeagues.forEach((region) => {
-        console.log(region.name)
-
-        console.log(region.leagues)
-    })
     res.send(regionsAndLeagues);
 });
+
+
+router.get("/:leagueCode/articles", async (req, res) => {
+    const league = req.params.leagueCode;
+    const articles = await axios.get(`ttp://site.api.espn.com/apis/site/v2/sports/soccer/${league}/news`);
+    res.send(articles.data)
+})
 module.exports = router;

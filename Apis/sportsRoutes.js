@@ -113,10 +113,10 @@ const getBasketballTeams = async sport => {
 
 const getSports = () => {
   sports = [
-    //   {
-    //   sport: "Soccer",
-    //   logoUrl: "https://e2.365dm.com/19/04/768x432/skysports-lionel-messi-barcelona_4633858.jpg?20190409153137"
-    // },
+    {
+      sport: "Soccer",
+      logoUrl: "https://e2.365dm.com/19/04/768x432/skysports-lionel-messi-barcelona_4633858.jpg?20190409153137"
+    },
     {
       sport: "NBA",
       logoUrl: 'https://img.zeit.de/news/2019-12/19/schroeder-fuehrt-okc-zum-sieg-theis-siegt-mit-boston-image.jpeg/wide__1300x731'
