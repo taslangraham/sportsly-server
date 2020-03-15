@@ -47,15 +47,18 @@ router.get("/", (req, res) => {
     const americas = [
         {
             name: "Major League Soccer",
-            code: "USA.1"
+            code: "USA.1",
+            image: "https://www.mlssoccer.com/sites/all/themes/custom/mp7/images/mls-1200x630.jpg"
         },
         {
             name: "Mexican Liga BBVA MX",
-            code: "MEX.1"
+            code: "MEX.1",
+            image: "https://a.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F22.png"
         },
         {
             name: "CONCACAF Champions League",
-            code: "CONCACAF.CHAMPIONS"
+            code: "CONCACAF.CHAMPIONS",
+            image: "https://res.cloudinary.com/concacaf-production/image/upload/c_fit,dpr_3.0,f_webp,g_center,q_auto,w_730/v1/championsleage-prod/SCCL_Digital_Generic_Web_Article"
         }
     ]
 
