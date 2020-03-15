@@ -23,7 +23,7 @@ router.get("/", (req, res) => {
         {
             name: "Italian Serie A",
             code: "ITA.1",
-            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLLflBrDG3a1_YuS5k-qvOQITT4BptC6-DkgZXf77q8V6gMDvvUA&s'
+            image: 'https://www.designfootball.com/images/joomgallery/originals/miscellaneous__26/serie_a_logo_concept_20190820_1590115396.png'
         },
         {
             name: "French Ligue 1",
